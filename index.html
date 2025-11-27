@@ -1,0 +1,232 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Qwirty</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Google Font -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+    />
+
+    <!-- Google Material Icons -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Top bar -->
+    <header class="top-bar">
+      <nav class="top-links">
+        <a href="#">Big Deals</a>
+        <a href="#">Top Brands</a>
+        <a href="#">Suggestions</a>
+        <a href="#">Help &amp; Contact</a>
+      </nav>
+
+      <nav class="account-links">
+        <a href="#">Log In / Sign Up</a>
+        <a href="#">Account</a>
+        <button class="icon-button" aria-label="Shopping cart">
+          <span class="material-icons">shopping_cart</span>
+        </button>
+        <!-- Mobile-only menu icon -->
+        <button class="icon-button menu-button" aria-label="Menu">
+          <span class="material-icons">menu</span>
+        </button>
+      </nav>
+    </header>
+
+    <!-- Brand + search -->
+    <header class="main-header">
+      <h1 class="logo">Qwirty</h1>
+
+      <form class="search-area">
+        <div class="search-input-wrapper">
+          <span class="material-icons search-icon">search</span>
+          <input
+            type="search"
+            placeholder="Search for products, brands, and more"
+            aria-label="Search"
+          />
+        </div>
+        <button type="submit" class="promo-button">
+          0% Financing 24 Months
+        </button>
+      </form>
+    </header>
+
+    <!-- Category nav -->
+    <nav class="category-nav">
+      <a href="#">Clothing &amp; Shoes</a>
+      <a href="#">Electronics</a>
+      <a href="#">Books</a>
+      <a href="#">Food &amp; Drinks</a>
+      <a href="#">Appliances</a>
+      <a href="#">Sports &amp; Outdoor</a>
+      <a href="#">Toys &amp; Baby</a>
+      <a href="#">Garden</a>
+    </nav>
+
+    <main class="page-layout">
+      <!-- Product grid -->
+      <section class="product-grid" aria-label="Product results">
+        <!-- Card 1 -->
+        <article class="product-card">
+          <img
+            src="https://via.placeholder.com/300x200"
+            alt="Placeholder product"
+          />
+          <h2>Product Name</h2>
+          <p class="description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel
+            laboriosam nihil tempore esse veniam sit vitae.
+          </p>
+          <div class="card-footer">
+            <p class="price">$27.99</p>
+            <button class="add-to-cart">
+              <span class="material-icons">add_shopping_cart</span>
+              Add to Cart
+            </button>
+          </div>
+        </article>
+
+        <!-- Duplicate / tweak as needed -->
+        <article class="product-card">
+          <img
+            src="https://via.placeholder.com/300x200"
+            alt="Placeholder product"
+          />
+          <h2>Product Name</h2>
+          <p class="description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto
+            dolore laudantium ad provident assumenda quae.
+          </p>
+          <div class="card-footer">
+            <p class="price">$27.99</p>
+            <button class="add-to-cart">
+              <span class="material-icons">add_shopping_cart</span>
+              Add to Cart
+            </button>
+          </div>
+        </article>
+
+        <!-- Add more cards to fill the grid -->
+        <article class="product-card">
+          <img
+            src="https://via.placeholder.com/300x200"
+            alt="Placeholder product"
+          />
+          <h2>Product Name</h2>
+          <p class="description">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum
+            dolores modi dignissimos.
+          </p>
+          <div class="card-footer">
+            <p class="price">$27.99</p>
+            <button class="add-to-cart">
+              <span class="material-icons">add_shopping_cart</span>
+              Add to Cart
+            </button>
+          </div>
+        </article>
+
+        <article class="product-card">
+          <img
+            src="https://via.placeholder.com/300x200"
+            alt="Placeholder product"
+          />
+          <h2>Product Name</h2>
+          <p class="description">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias,
+            quasi.
+          </p>
+          <div class="card-footer">
+            <p class="price">$27.99</p>
+            <button class="add-to-cart">
+              <span class="material-icons">add_shopping_cart</span>
+              Add to Cart
+            </button>
+          </div>
+        </article>
+
+        <article class="product-card">
+          <img
+            src="https://via.placeholder.com/300x200"
+            alt="Placeholder product"
+          />
+          <h2>Product Name</h2>
+          <p class="description">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet,
+            odit?
+          </p>
+          <div class="card-footer">
+            <p class="price">$27.99</p>
+            <button class="add-to-cart">
+              <span class="material-icons">add_shopping_cart</span>
+              Add to Cart
+            </button>
+          </div>
+        </article>
+
+        <article class="product-card">
+          <img
+            src="https://via.placeholder.com/300x200"
+            alt="Placeholder product"
+          />
+          <h2>Product Name</h2>
+          <p class="description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus,
+            natus.
+          </p>
+          <div class="card-footer">
+            <p class="price">$27.99</p>
+            <button class="add-to-cart">
+              <span class="material-icons">add_shopping_cart</span>
+              Add to Cart
+            </button>
+          </div>
+        </article>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+      <section class="footer-column">
+        <h3>Customer Care</h3>
+        <ul>
+          <li><a href="#">Account</a></li>
+          <li><a href="#">Orders</a></li>
+          <li><a href="#">Policies</a></li>
+          <li><a href="#">Credit</a></li>
+          <li><a href="#">Help</a></li>
+        </ul>
+      </section>
+
+      <section class="footer-column">
+        <h3>Sales</h3>
+        <ul>
+          <li><a href="#">Become a Seller</a></li>
+          <li><a href="#">Manage Your Products</a></li>
+          <li><a href="#">Advertise</a></li>
+        </ul>
+      </section>
+
+      <section class="footer-column">
+        <h3>About Us</h3>
+        <ul>
+          <li><a href="#">Careers</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Our History</a></li>
+          <li><a href="#">Press Releases</a></li>
+          <li><a href="#">Take a Tour</a></li>
+        </ul>
+      </section>
+    </footer>
+  </body>
+</html>
